@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #007f3d;
   color: #fff;
   padding: 10px;
 }
@@ -41,28 +41,68 @@ main {
   padding: 0 20px;
 }
 
-h1 {
-  font-size: 36px;
+.hero {
+  background-color: #c4e6c3;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  margin: auto;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
   margin-bottom: 20px;
+  color: #007f3d;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #007f3d;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 .btn {
   display: inline-block;
-  background-color: #333;
+  background-color: #007f3d;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   margin-top: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005c29;
 }
 
 footer {
-  background-color: #333;
+  background-color: #007f3d;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 20px 0;
 }
